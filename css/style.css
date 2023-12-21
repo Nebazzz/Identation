@@ -139,3 +139,7 @@ i {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+.text:not(:last-child) {
+  margin-bottom: 30px;
+}
