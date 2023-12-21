@@ -1,4 +1,43 @@
+.content{
+  margin-bottom: 50px;
+}
+
+.content__navigation{
+  margin-left: 15px;
+}
+
+.content__navigation__item{
+  margin-bottom: 10px;
+}
+
+.content__navigation__item:last-child {
+  margin-bottom: 25px;
+}
+
 .content__navigation__link {
   color: #02535F;
   border-bottom: 1px black solid;
 }
+
+.content__navigation__list{
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.content__title{
+  padding-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.header{
+  margin-bottom: 50px;
+}
+
+.header__title{
+  margin-bottom: 30px;
+}
+
+/* .text{
+
+} */

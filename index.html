@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="index.css">
   <title>Identation</title>
 </head>
-<body>
+<body class="page">
   <header>
     <section class="header">
       <div class="container">
@@ -25,24 +25,28 @@
       <div class="container">
         <h2 class="content__title">Содержание</h2>
         <nav class="content__navigation">
-          <ul class="content__navigation__list">
-            <li class="content__navigation__item"></li>
+          <ol class="content__navigation__list">
+            <li class="content__navigation__item">
               <a class="content__navigation__link" href="#article1">Отступ задается от предыдущего элемента к следующему</a>
-            <li class="content__navigation__item"></li>
+            </li>
+            <li class="content__navigation__item">
               <a class="content__navigation__link" href="#article2">Отступ задается последнему возможному элементу в DOM-дереве</a>
-            <li class="content__navigation__item"></li>
+            </li>
+            <li class="content__navigation__item">
               <a class="content__navigation__link" href="#article3">Для последнего элемента группы отступ обнуляется</a>
-          </ul>
+            </li>
+          </ol>
         </nav>
       </div>
     </section>
   </header>
 
   <main>
-    <section>
+    <section class="rules">
       <div class="container">
-        <article>
+        <article class="rule-one">
           <h3>Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
+          
         </article>
       </div>
     </section>
