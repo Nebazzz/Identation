@@ -1,12 +1,12 @@
-.content{
-  margin-bottom: 50px;
+.content {
+  padding: 25px 0 25px;
 }
 
-.content__navigation{
+.content__navigation {
   margin-left: 15px;
 }
 
-.content__navigation__item{
+.content__navigation__item {
   margin-bottom: 10px;
 }
 
@@ -19,22 +19,22 @@
   border-bottom: 1px black solid;
 }
 
-.content__navigation__list{
+.content__navigation__list {
   list-style-position: inside;
   list-style-type: decimal;
 }
 
-.content__title{
+.content__title {
   padding-top: 25px;
   margin-left: 15px;
   margin-bottom: 20px;
 }
 
-.header{
-  margin-bottom: 50px;
+.header {
+  padding-bottom: 25px;
 }
 
-.header__title{
+.header__title {
   margin-bottom: 30px;
 }
 

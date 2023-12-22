@@ -1,0 +1,52 @@
+.rule-two {
+  padding: 25px 0;
+}
+
+.rule-two__title {
+  margin-bottom: 30px;
+}
+
+.figcaption {
+  width: 1020px;
+  color: #5E5E5E;
+  margin: 0 auto 15px;
+}
+
+.rule-two__figure {
+  border: 1px solid #000;
+  background: #FFF;
+  margin-bottom: 30px;
+}
+
+.rule-two__block-img1 {
+  height: 1017px;
+  margin-bottom: 30px;
+}
+
+.rule-two__img-dom1 {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.rule-two__img-dom2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.rule-two__img-dom3 {
+  margin-bottom: 15px;
+}
+
+.rule-two__img-dom4 {
+  margin: 0 auto 30px;
+}
+
+.rule-two__img-dom5 {
+  margin-bottom: 30px;
+}
+
+
+.text {
+
+}
