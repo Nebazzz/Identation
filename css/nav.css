@@ -15,7 +15,7 @@
 }
 
 .content__navigation__item:last-child {
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 
 .content__navigation__link {
