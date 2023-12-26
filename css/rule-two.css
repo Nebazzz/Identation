@@ -1,5 +1,7 @@
 .rule-two {
-  padding: 25px 0;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  
 }
 
 .rule-two__title {

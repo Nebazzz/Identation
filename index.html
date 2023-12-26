@@ -41,13 +41,13 @@
 
     <section class="rules">
       <div class="container">
-        <article class="rule-one">
+        <section class="rule-one">
           <h3 class="rule-one__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
           <div class="rule-one__block rule-one__block-img1">
             <img src="image/image_1.jpg" alt="пример с использованием margin у 4 блоков">
           </div>
           <div class="rule-one__block rule-one__block-text1">
-            <p class="text">ВАЖНО: <i>margin</i> всегда задают от предыдущего элемента к следующему.
+            <p class="text"><b>ВАЖНО</b>: <i>margin</i> всегда задают от предыдущего элемента к следующему.
             </p>
             <p class="text">Свойство <i>margin</i> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется <i>margin-right</i> и <i>margin-bottom</i>.
             </p>
@@ -67,8 +67,9 @@
           <div class="rule-one__block rule-one__block-img2">
             <img src="image/image_2.jpg" alt="пример с использованием margin у 4 блоков">
           </div>
-        </article>
-        <article class="rule-two">
+        </section>
+
+        <section class="rule-two">
           <h3 class="rule-two__title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
           <p class="text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
           </p>
@@ -93,23 +94,20 @@
           <img class="rule-two__img-dom5" src="image/image_7.jpg" alt="Пример использования padding-top c двойной вложенностью">
           <p class="text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.
           </p>
-        </article>
-        <article>
+        </section>
+
+        <section class="rule-three">
           <h3>Для последнего элемента группы отступ всегда обнуляется</h3>
           <p class="text">Для наглядности возьмём наш предыдущий пример с рецептами
           </p>
-          <figure>
-            <figcaption class="text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
-            </figcaption>
-            <img class="rule-three__img" src="image/image_8.jpg" alt="Пример обнуления отступа для последнего элемента">
-          </figure>
-          <figure>
-            <figcaption class="text">В соответствии со вторым принципом: последний <i>margin</i> обнуляется, а нижний отступ задаётся через <i>padding</i> для <i>section</i>. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <i>padding-top:50px</i> и <i>padding-bottom:50px</i>.
-            </figcaption>
-            <img class="rule-three__img" src="image/image_9.jpg" alt="Пример обнуления отступа для последнего элемента в браузере">
-            <img src="image/image_10.jpg" alt="Пример кода html, где article вложен в тег section">
-            <img class="rule-three__img" src="image/image_11.jpg" alt="Еще один пример кода html, где article вложен в тег section">
-          </figure>
+          <p class="text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
+          </p>
+          <img class="rule-three__img" src="image/image_8.jpg" alt="Пример обнуления отступа для последнего элемента">
+          <p class="text">В соответствии со вторым принципом: последний <i>margin</i> обнуляется, а нижний отступ задаётся через <i>padding</i> для <i>section</i>. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <i>padding-top:50px</i> и <i>padding-bottom:50px</i>.
+          </p>
+          <img class="rule-three__img" src="image/image_9.jpg" alt="Пример обнуления отступа для последнего элемента в браузере">
+          <img class="rule-three__img-nomargin" src="image/image_10.jpg" alt="Пример кода html, где article вложен в тег section">
+          <img class="rule-three__img" src="image/image_11.jpg" alt="Еще один пример кода html, где article вложен в тег section">
           <figure>
             <figcaption class="text">Для большего понимания рассмотрим другой пример, который часто встречается на практике:
             </figcaption>
@@ -124,9 +122,9 @@
           <figure>
             <figcaption class="text">Советую использовать псевдоклассы :last-child чаще других, например так:
             </figcaption>
-            <img class="rule-three__img" src="image/image_15.jpg" alt="Пример использования margin для элементов списка">
+            <img class="rule-three__img-last" src="image/image_15.jpg" alt="Пример использования margin для элементов списка">
           </figure>
-        </article>
+        </section>
       </div>
     </section>
 
