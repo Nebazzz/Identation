@@ -1,0 +1,15 @@
+.receipt {
+  padding: 25px 0 25px;
+}
+
+.receipt__title {
+  margin-bottom: 30px;
+}
+
+.receipt__img {
+  margin: 0 auto 30px;
+}
+
+.receipt__img-nomargin, .receipt__img-last {
+  margin: 0 auto 0;
+}

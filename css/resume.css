@@ -1,19 +1,30 @@
+.container--resume {
+  max-width: 1140px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #F1F1F1;
+  padding: 25px 25px;
+}
+
 .resume {
   padding: 25px 0 0;
 }
 
 .resume__title {
-  margin-left: 45px;
   margin-bottom: 20px;
-  padding-top: 25px;
 }
 
 .resume__content {
-  margin-left: 45px;
+  padding-left: 45px;
 }
 
-.resume__item:not(:last-child) {
+.resume__item {
+  max-width: 680px;
   margin-bottom: 10px;
+}
+
+.resume__item:last-child {
+  margin-bottom: 30px;
 }
 
 .resume__list {

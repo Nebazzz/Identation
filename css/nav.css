@@ -1,32 +1,26 @@
-.container-nav {
+.container--nav {
   max-width: 1140px;
   margin: 0 auto;
   border-radius: 10px;
   background: #F1F1F1;
-  padding-bottom: 25px;
-}
-
-.container-nav:last-child {
-  max-width: 1140px;
-  margin: 0 auto;
-  border-radius: 10px;
-  background: #F1F1F1;
-  padding-bottom: 25px;
+  padding: 25px 25px;
 }
 
 .header {
   padding-bottom: 50px;
 }
 
-.content {
+/* .content {
   padding: 25px 0 0;
-}
+} */
 
 .content__navigation {
-  margin-left: 45px;
+  padding-left: 45px;
 }
 
 .content__navigation__item {
+  max-width: 670px;
+  color: #02535F;
   margin-bottom: 10px;
 }
 
@@ -45,7 +39,6 @@
 }
 
 .content__title {
-  margin-left: 45px;
   margin-bottom: 20px;
 }
 
