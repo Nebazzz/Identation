@@ -8,15 +8,15 @@
   padding-top: 25px;
 }
 
-.content__resume {
+.resume__content {
   margin-left: 45px;
 }
 
-.content__resume__item:not(:last-child) {
+.resume__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.content__resume__list {
+.resume__list {
   list-style-position: inside;
   list-style-type: "– ";
 }
