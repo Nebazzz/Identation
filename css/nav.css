@@ -14,31 +14,31 @@
   padding: 25px 0 0;
 } */
 
-.content__navigation {
+.navigation {
   padding-left: 45px;
 }
 
-.content__navigation__item {
+.navigation__item {
   max-width: 670px;
   color: #02535F;
   margin-bottom: 10px;
 }
 
-.content__navigation__item:last-child {
+.navigation__item:last-child {
   margin-bottom: 0;
 }
 
-.content__navigation__link {
+.navigation__link {
   color: #02535F;
   border-bottom: 1px black solid;
 }
 
-.content__navigation__list {
+.navigation__list {
   list-style-position: inside;
   list-style-type: decimal;
 }
 
-.content__title {
+.navigation__title {
   margin-bottom: 20px;
 }
 

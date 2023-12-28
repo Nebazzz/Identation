@@ -24,25 +24,25 @@
 
     <section class="content">
       <div class="content__container">
-        <nav class="content__navigation">
-        <h2 class="content__title">Содержание</h2>
-        <ol class="content__navigation__list">
-          <li class="content__navigation__item">
-            <a class="content__navigation__link" href="#cats-link">Отступ задается от предыдущего элемента к следующему</a>
+        <nav class="navigation">
+        <h2 class="navigation__title">Содержание</h2>
+        <ol class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#cats-link">Отступ задается от предыдущего элемента к следующему</a>
           </li>
-          <li class="content__navigation__item">
-            <a class="content__navigation__link" href="#dom-link">Отступ задается последнему возможному элементу в DOM-дереве</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#dom-link">Отступ задается последнему возможному элементу в DOM-дереве</a>
           </li>
-          <li class="content__navigation__item">
-            <a class="content__navigation__link" href="#receipt-link">Для последнего элемента группы отступ обнуляется</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#receipt-link">Для последнего элемента группы отступ обнуляется</a>
           </li>
         </ol>
       </nav>
       </div>
     </section>
 
-    <div class="container">
-      <section class="cats" id="cats-link">
+    <section class="cats" id="cats-link">
+      <div class="container">
         <h3 class="cats__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
         <div class="cats__content">
           <div class="cats__block cats__block-img1">
@@ -72,11 +72,11 @@
             <img src="image/image_2.jpg" alt="пример с использованием margin у 4 блоков">
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-      <section class="dom" id="dom-link">
+    <section class="dom" id="dom-link">
+      <div class="container">
         <h3 class="dom__title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
         <p class="text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
         </p>
@@ -101,11 +101,11 @@
         <img class="dom__img-dom5" src="image/image_7.jpg" alt="Пример использования padding-top c двойной вложенностью">
         <p class="text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.
         </p>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-      <section class="receipt" id="receipt-link">
+    <section class="receipt" id="receipt-link">
+      <div class="container">
         <h3 class="receipt__title">Для последнего элемента группы отступ всегда обнуляется</h3>
         <p class="text">Для наглядности возьмём наш предыдущий пример с рецептами
         </p>
@@ -133,8 +133,8 @@
           </figcaption>
           <img class="receipt__img-last" src="image/image_15.jpg" alt="Пример использования margin для элементов списка">
         </figure>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <section class="resume">
       <div class="resume__container">
