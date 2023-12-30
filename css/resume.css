@@ -3,7 +3,7 @@
   margin: 0 auto;
   border-radius: 10px;
   background: #F1F1F1;
-  padding: 25px 25px;
+  padding: 25px 25px 25px 45px;
 }
 
 .resume {
@@ -12,10 +12,6 @@
 
 .resume__title {
   margin-bottom: 20px;
-}
-
-.resume__content {
-  padding-left: 45px;
 }
 
 .resume__item {

@@ -3,19 +3,11 @@
   margin: 0 auto;
   border-radius: 10px;
   background: #F1F1F1;
-  padding: 25px 25px;
+  padding: 25px 25px 25px 45px;
 }
 
-.header {
-  padding-bottom: 50px;
-}
-
-/* .content {
-  padding: 25px 0 0;
-} */
-
-.navigation {
-  padding-left: 45px;
+.content {
+  padding: 50px 0 0;
 }
 
 .navigation__item {
